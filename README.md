@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #0077cc;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #0077cc;
+    }
+    .card {
+      background: white;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Your Name</h1>
+  <p>B.Tech Computer Science and Business Systems (CSBS)</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <div class="card">
+    <p>I am a CSBS student with a strong interest in AI, Data Science, Cybersecurity, and Web Development. I’ve attended several workshops, internships, and bootcamps including at Nezuware, NoviTech, Microsoft, and Tech Mahindra Foundation.</p>
+  </div>
+
+  <h2>Projects & Internships</h2>
+  <div class="card">
+    <ul>
+      <li>Machine Learning for Shock Protection and Disease Detection – Nezuware</li>
+      <li>AI-powered Neonatal Vital Monitoring – Real-time Project</li>
+      <li>Website development for RSC Travels</li>
+      <li>Poster Design on Augmented Reality Systems in RE</li>
+    </ul>
+  </div>
+
+  <h2>Courses & Certifications</h2>
+  <div class="card">
+    <ul>
+      <li>Python 101 for Data Science – IBM</li>
+      <li>Introduction to Cybersecurity – Tech Mahindra Foundation</li>
+      <li>Microsoft Power BI – Infosys Springboard</li>
+      <li>NLP Unleashed – Vardhaman College of Engineering</li>
+    </ul>
+  </div>
+
+  <h2>Achievements</h2>
+  <div class="card">
+    <ul>
+      <li>Logo design prize for CSBS department</li>
+      <li>Second Prize – Project Expo at Symposium</li>
+      <li>Paper Presentation on “Ethical Issues in Cybersecurity”</li>
+    </ul>
+  </div>
+
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: your.email@example.com</p>
+    <p>LinkedIn: linkedin.com/in/yourprofile</p>
+    <p>GitHub: github.com/yourusername</p>
+  </div>
+</section>
+
+</body>
+</html>- 
+
+<!---
+Rukshana01/Rukshana01 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
