@@ -4,100 +4,202 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Your Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      padding: 0;
-      background: #f9f9f9;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fb;
       color: #333;
     }
+
     header {
-      background: #0077cc;
+      background: linear-gradient(135deg, #4a90e2, #7b61ff);
       color: white;
-      padding: 2rem;
       text-align: center;
+      padding: 60px 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     }
-    section {
-      padding: 2rem;
-      max-width: 900px;
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+    }
+
+    .container {
+      max-width: 1000px;
       margin: auto;
+      padding: 40px 20px;
     }
+
+    section {
+      margin-bottom: 40px;
+    }
+
     h2 {
-      color: #0077cc;
+      font-size: 1.8rem;
+      color: #4a90e2;
+      margin-bottom: 20px;
+      border-left: 5px solid #4a90e2;
+      padding-left: 15px;
     }
+
     .card {
-      background: white;
-      padding: 1rem;
-      margin-bottom: 1rem;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      background-color: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+      margin-bottom: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+      line-height: 1.7;
+    }
+
+    a {
+      color: #4a90e2;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f0f0f0;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>S Rukshana Begam</h1>
-  <p>B.Tech Computer Science and Business Systems (CSBS)</p>
+  <h1>Your Name</h1>
+  <p>B.Tech CSBS Student | Data Science Enthusiast |Graphical Designer |Techgium Finalist</p>
 </header>
 
-<section>
-  <h2>About Me</h2>
-  <div class="card">
-    <p>I am a passionate and proactive Computer Science and Business Systems (CSBS) student with a strong foundation in artificial intelligence, machine learning, web development, and cybersecurity. My academic journey has been complemented by hands-on experience through multiple internships, bootcamps, and real-world projects across diverse domains including neonatal healthcare, travel technology, and ethical tech practices.
-    ,internships .My learning philosophy revolves around curiosity, collaboration, and constant growth. I’ve proudly represented my department in symposiums, won accolades in project expos, and designed official logos for my CSBS department.
-    In every challenge, I see an opportunity to learn, lead, and contribute to meaningful innovation..</p>
-  </div>
+<div class="container">
 
-  <h2>Projects & Internships</h2>
-  <div class="card">
-    <ul>
-      <li>Machine Learning for Stock Protection and Disease Detection – Nezuware</li>
-      <li>AI-powered Neonatal Vital Monitoring – Real-time Project</li>
-      <li>Poster Design on Augmented Reality Systems in RE</li>
-    </ul>
-  </div>
+  <section>
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+      I am a passionate and dedicated Computer Science and Business Systems (CSBS) student with a strong interest in Artificial Intelligence, Machine Learning, Full Stack Development, and Cybersecurity. My learning journey is driven by curiosity and a desire to build solutions that create real-world impact.I'm always open to learning, collaborating, and contributing to exciting tech opportunities that push boundaries and solve meaningful problems.
+      </p>
+    </div>
+  </section>
 
-  <h2>Courses & Certifications</h2>
-  <div class="card">
-    <ul>
-      <li>Python 101 for Data Science – IBM</li>
-      <li>Introduction to Cybersecurity – Tech Mahindra Foundation</li>
-      <li>Microsoft Power BI – Infosys Springboard</li>
-      <li>Introduction to Business Intelligence and Analytics – Saylor.Org Academy</li>
-      <li>Information Security – Infosys Springboard</li>
-      <li>NLP Unleashed – Vardhaman College of Engineering</li>
-    </ul>
-  </div>
-
- <h2>Bootcamp</h2>
-  <div class="card">
-    <ul>  
-      <li>Artificial Intelligence– NoviTech R&D Private Limited</li>
-      <li>Cracking Advanced Excel for Business Analytics –WsCUBE Tech</li>
-      <li>AI-Powered Marketing Data Analytics –WsCUBE Tech</li> 
-      <li>MERN Stack- NoviTech R&D Private Limited</li>
+  <section>
+    <h2>Skills</h2>
+    <div class="card">
+      <ul>
+        <li>Python,HTML, CSS</li>
+        <li>Machine Learning, AI, NLP</li>
+        <li>MERN Stack (MongoDB, Express, React, Node.js)</li>
+        <li>Data Analytics (Power BI, Excel)</li>
+        <li>Cybersecurity Fundamentals</li>
+        <li>Logo & Poster Design</li>
       </ul>
-  </div>
+    </div>
+  </section>
 
-  <h2>Achievements</h2>
-  <div class="card">
-    <ul>
-      <li>Logo design prize for CSBS department</li>
-      <li>Second Prize – Project Expo at Symposium</li>
-      <li>Paper Presentation on “Ethical Issues in Cybersecurity”</li>
-      <li>First Prize – Quiz Competition</li>
-    </ul>
-  </div>
+  <section>
+    <h2>Courses Completed</h2>
+    <div class="card">
+      <ul>
+        <li><strong>FreeCodeCamp</strong>
+          <ul>
+            <li>Responsive Web Design</li>
+            <li>Data Analysis With Python</li>
+          </ul>
+        </li>
+        <li><strong>Infosys Springboard</strong>
+          <ul>
+            <li>Information Security</li>
+            <li>Microsoft Power BI</li>
+          </ul>
+        </li>
+        <li><strong>Cisco Networking Academy</strong>
+          <ul>
+            <li>Data Analytics Essentials</li>
+            <li>Introduction to Data Science</li>
+          </ul>
+        </li>
+        <li><strong>IBM (via Cognitive.ai)</strong>
+          <ul>
+            <li>Python 101 for Data Science</li>
+          </ul>
+        </li>
+        <li><strong>Tech Mahindra Foundation</strong>
+          <ul>
+            <li>Introduction to Cybersecurity</li>
+          </ul>
+        </li>
+        <li><strong>NoviTech</strong>
+          <ul>
+            <li>MERN Stack Bootcamp</li>
+             <li>AI Bootcamp</li>
+          </ul>
+        </li>
+        <li><strong>Vardhaman College of Engineering</strong>
+          <ul>
+            <li>NLP Unleashed - Professional Development Program</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
 
-  <h2>Contact</h2>
-  <div class="card">
-    <p>Email: ruked05@gmail.com</p>
-    <p>LinkedIn:www.linkedin.com/in/rukshanabegam</p>
-    <p>GitHub:github.com/Rukshana01</p>
-  </div>
-</section>
+  <section>
+    <h2>Projects</h2>
+    <div class="card">
+      <ul>
+        <li>AI-powered Neonatal Vital Monitoring (Real-Time Project)</li>
+        <li>Poster on Augmented Reality Systems</li>
+        <li>Stock Protection & Disease Detection using ML</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Achievements</h2>
+    <div class="card">
+      <ul>
+        <li>Selected for 2nd Round – <strong>Techgium Project Challenge</strong></li>
+        <li>Won prize from Hon. Higher Education Minister Govi. Chezhiyan</li>
+        <li>Second prize at nehru yuva kendra Project Expo</li>
+        <li>first prize in quiz competitionin symposium</li>
+        <li>Designed official department logo (CSBS)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Email: <a href="mailto:yourname@example.com">ruked05@gmail.com</a></p>
+      <p>LinkedIn: <a href="#">www.linkedin.com/in/rukshanabegam</a></p>
+      <p>GitHub: <a href="#">github.com/yourusername</a></p>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2025 Your Name. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
+
+
+
+
+ 
